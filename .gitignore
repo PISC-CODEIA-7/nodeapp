@@ -1,0 +1,61 @@
+# Ignorar arquivos gerados automaticamente
+node_modules/
+.cache/
+.nyc_output/
+coverage/
+.eslintcache
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar arquivos de configuração
+.babelrc
+.eslintrc.js
+.prettierrc.js
+.stylelintrc.js
+.editorconfig
+
+# Ignorar arquivos de log
+logs/
+*.log
+
+# Ignorar arquivos de teste
+__tests__/
+*.spec.js
+*.test.js
+
+# Ignorar arquivos de documentação
+docs/
+*.md
+
+# Ignorar arquivos temporários
+tmp/
+*.tmp
+
+# Ignorar arquivos de cache
+.cache/
+*.cache
+
+# Ignorar arquivos de lock
+*.lock
+
+# Ignorar arquivos de cobertura de código
+coverage/
+*.cov
+
+# Ignorar arquivos de depuração
+*.pdb
+
+# Ignorar arquivos de minificação
+*.min.js
+*.min.css
+
+# Ignorar arquivos de mapa de origem
+*.map
+
+# Ignorar arquivos de configuração específicos do sistema operacional
+.DS_Store
+Thumbs.db
